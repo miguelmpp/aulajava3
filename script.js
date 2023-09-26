@@ -18,7 +18,7 @@ switch(opcao){
 
 }
 */
-
+/*
 let valor = 7
 console.log(valor)
 valor = valor-1
@@ -45,4 +45,38 @@ for(let i=0; i <carros.length;i++){
 
 for(let carro of carros){
     console.log(carro)
+}
+
+//while 
+
+let cont =0
+while(cont<20){
+    console.log("passagem de numeros" +cont)
+    cont++
+} 
+
+//do while 
+
+let valor2 =10;
+do{
+    console.log("passagem" +valor2)
+    valor2++
+}while(valor2 ==0)
+
+//função
+function teste(num1, num2){
+    return num1 + num2
+}
+console.log(teste(4,6))
+
+function avisar(){
+    alert("avisar")
+    alert("avisar-2")
+}
+avisar()
+*/
+let novo = document.getElementById("idNome")
+function mudar(){
+    document.getElementById("titulo").innerHTML=novo.value;
+    
 }
